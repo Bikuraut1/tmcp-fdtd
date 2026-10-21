@@ -1,0 +1,19 @@
+name: reproduce
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Regenerate all tables and figures and compare with the manuscript
+        run: python reproduce.py all
+      - name: Regression tests (short FDTD runs, cavity benchmark)
+        run: python -m pytest -q tests
+      - uses: actions/upload-artifact@v4
+        with:
+          name: outputs
+          path: outputs/

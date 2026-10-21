@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and this software."
+title: "tmcp-fdtd: FDTD code and data for sideband generation and polarization conversion in a CP patch antenna on a time-modulated substrate"
+version: 1.0.0
+date-released: 2026-10-21
+license: MIT
+type: software
+authors:
+  - family-names: Raut
+    given-names: Biku
+    affiliation: "Department of Electronic Science, Berhampur University, Odisha, India"
+  - family-names: Naik
+    given-names: Deepak K.
+    affiliation: "Department of Electronic Science, Berhampur University, Odisha, India"
+  - family-names: Panda
+    given-names: Dhruba C.
+    affiliation: "Department of Electronic Science, Berhampur University, Odisha, India"
+keywords:
+  - FDTD
+  - time-modulated media
+  - time-varying permittivity
+  - circular polarization
+  - microstrip patch antenna
+preferred-citation:
+  type: article
+  title: "FDTD Analysis of Sideband Generation and Polarization Conversion in a Circularly Polarized Patch Antenna on a Time-Modulated Substrate"
+  journal: "Microwave and Optical Technology Letters"
+  status: submitted
+  authors:
+    - family-names: Raut
+      given-names: Biku
+    - family-names: Naik
+      given-names: Deepak K.
+    - family-names: Panda
+      given-names: Dhruba C.
