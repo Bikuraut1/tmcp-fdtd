@@ -1,7 +1,7 @@
 # tmcp-fdtd
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-[![reproduce](https://github.com/USERNAME/tmcp-fdtd/actions/workflows/ci.yml/badge.svg)](https://github.com/USERNAME/tmcp-fdtd/actions/workflows/ci.yml)
+[![reproduce](https://github.com/Bikuraut1/tmcp-fdtd/actions/workflows/ci.yml/badge.svg)](https://github.com/Bikuraut1/tmcp-fdtd/actions/workflows/ci.yml)
 
 Code and data for
 
@@ -16,7 +16,7 @@ and of its Supporting Information from those data.
 ## Quick start (about 1 minute)
 
 ```bash
-git clone https://github.com/USERNAME/tmcp-fdtd.git
+git clone https://github.com/Bikuraut1/tmcp-fdtd.git
 cd tmcp-fdtd
 python -m pip install -r requirements.txt        # numpy, scipy, matplotlib, numba, pytest
 python reproduce.py all
