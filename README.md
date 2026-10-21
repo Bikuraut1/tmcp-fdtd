@@ -1,6 +1,6 @@
 # tmcp-fdtd
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23527429.svg)](https://doi.org/10.5281/zenodo.23527429)
 [![reproduce](https://github.com/Bikuraut1/tmcp-fdtd/actions/workflows/ci.yml/badge.svg)](https://github.com/Bikuraut1/tmcp-fdtd/actions/workflows/ci.yml)
 
 Code and data for
@@ -114,5 +114,6 @@ Harmonics are extracted with a rectangular one-period DFT in the periodic steady
 
 ## Citation and licence
 
-Please cite the article and this repository (see `CITATION.cff`; GitHub's "Cite this repository" button uses it).
+Please cite the article and this repository: B. Raut, D. K. Naik and D. C. Panda, *tmcp-fdtd* (v1.0.0), Zenodo,
+https://doi.org/10.5281/zenodo.23527429 (see also `CITATION.cff`; GitHub's "Cite this repository" button uses it).
 Code: MIT licence. Data: CC BY 4.0. See `LICENSE`.

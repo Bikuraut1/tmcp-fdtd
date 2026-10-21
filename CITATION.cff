@@ -4,6 +4,8 @@ title: "tmcp-fdtd: FDTD code and data for sideband generation and polarization c
 version: 1.0.0
 date-released: 2026-10-21
 license: MIT
+doi: 10.5281/zenodo.23527429
+repository-code: "https://github.com/Bikuraut1/tmcp-fdtd"
 type: software
 authors:
   - family-names: Raut
