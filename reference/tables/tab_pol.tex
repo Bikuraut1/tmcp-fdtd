@@ -1,0 +1,31 @@
+\begin{table}[t]
+\centering
+\caption{Polarization of the first- and second-order sidebands at $f_c$ for $\delta\eps=0.05$, $f_m=f_c/200$: ratio and phase of $E_y/E_x$, AR and LHCP/RHCP ratio at broadside. The carrier is LHCP ($E_L/E_R=\SI{22.5}{dB}$ static).}
+\label{tab:pol}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+ & $|E_y/E_x|$ (dB) & $\angle E_y/E_x$ ($^\circ$) & AR (dB) & $E_L/E_R$ (dB) \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Sidebands $n=\pm1$}} \\
+Ideal two-mode ($x_{u,v}=\pm1$) & $-\infty$ & -- & $\infty$ & 0 \\
+Fitted two-mode model, Eq.~(\ref{eq:qs}) & $-$16.6 & $-$112 & 17.3 & $-$2.4 \\
+Static FDTD derivative, Eq.~(\ref{eq:qs}) & $-$22.4 & $-$75 & 22.7 & $-$1.3 \\
+Adiabatic model & $-$21.4 & $-$112 & 22.0 & $-$1.4 \\
+Time-varying FDTD, $n=-1$ & $-$15.5 & $-$47 & 18.3 & $-$2.1 \\
+Time-varying FDTD, $n=+1$ & $-$20.0 & $-$142 & 24.2 & $-$1.1 \\
+\addlinespace
+\multicolumn{5}{@{}l}{\emph{Sidebands $n=\pm2$}} \\
+Ideal two-mode ($x_{u,v}=\pm1$) & 0 & $-90$ & 0 & $-\infty$ \\
+Fitted two-mode model, Eq.~(\ref{eq:qs}) & 1.8 & $-$126 & 6.2 & $-$9.3 \\
+Static FDTD derivative, Eq.~(\ref{eq:qs}) & 1.2 & $-$116 & 4.2 & $-$12.4 \\
+Adiabatic model & 0.9 & $-$120 & 4.8 & $-$11.4 \\
+Time-varying FDTD, $n=-2$ & 3.5 & $-$83 & 3.6 & $-$13.8 \\
+Time-varying FDTD, $n=+2$ & $-$1.5 & $-$138 & 8.4 & $-$6.9 \\
+\bottomrule
+\end{tabular}
+
+\smallskip
+\footnotesize For the first-order sidebands, $|E_y|\ll|E_x|$, so the phase of $E_y/E_x$ is poorly conditioned and has little effect on the polarization.
+\end{table}

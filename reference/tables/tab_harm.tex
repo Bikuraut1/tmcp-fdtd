@@ -1,0 +1,33 @@
+\begin{table}[t]
+\centering
+\caption{Harmonics radiated by the modulated antenna for $f_m=f_c/200=\SI{28.8}{MHz}$ (time-varying FDTD, coarse grid). $P_n$: hemisphere-integrated radiated power relative to the carrier; AR and $E_L/E_R$ (LHCP/RHCP amplitude ratio) at broadside; $\Delta$: FDTD minus the adiabatic model (scaling law, as in Fig.~\ref{fig:harm}). Note that $P_n$ is an integrated power, whereas Fig.~\ref{fig:harm} shows broadside field components.}
+\label{tab:harm}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}rcrrrlrr@{}}
+\toprule
+$n$ & $f_c+nf_m$ (GHz) & $P_n$ (dBc) & AR (dB) & $E_L/E_R$ (dB) & State & $\Delta P_n$ (dB) & $\Delta$AR (dB) \\
+\midrule
+\multicolumn{8}{@{}l}{\emph{$\delta\eps=0.05$}} \\
+$-$3 & 5.6677 & $-$50.5 & 16.0 & 2.8 & linear & 0.4 & $-$0.5 \\
+$-$2 & 5.6965 & $-$34.0 & 3.6 & $-$13.8 & RHCP-dom. & $-$0.2 & $-$1.2 \\
+$-$1 & 5.7252 & $-$17.2 & 18.3 & $-$2.1 & linear & $-$0.2 & $-$3.7 \\
+0 & 5.7540 & 0.0 & 0.6 & 29.4 & LHCP & -- & 0.0 \\
++1 & 5.7828 & $-$16.7 & 24.2 & $-$1.1 & linear & 0.2 & 2.2 \\
++2 & 5.8115 & $-$32.2 & 8.4 & $-$6.9 & RHCP-dom. & 1.6 & 3.6 \\
++3 & 5.8403 & $-$46.9 & 27.1 & $-$0.8 & linear & 4.0 & 10.5 \\
+\addlinespace
+\multicolumn{8}{@{}l}{\emph{$\delta\eps=0.2$}} \\
+$-$3 & 5.6677 & $-$17.0 & 4.7 & $-$11.5 & RHCP-dom. & 0.1 & 0.6 \\
+$-$2 & 5.6965 & $-$11.5 & 28.9 & $-$0.6 & linear & $-$0.1 & $-$8.3 \\
+$-$1 & 5.7252 & $-$5.9 & 4.0 & 12.9 & LHCP-dom. & $-$0.1 & 0.4 \\
+0 & 5.7540 & 0.0 & 8.4 & 7.0 & LHCP-dom. & -- & 0.1 \\
++1 & 5.7828 & $-$6.1 & 3.9 & 13.1 & LHCP-dom. & $-$0.3 & 0.3 \\
++2 & 5.8115 & $-$12.1 & 29.0 & $-$0.6 & linear & $-$0.7 & $-$8.3 \\
++3 & 5.8403 & $-$18.0 & 4.3 & $-$12.3 & RHCP-dom. & $-$0.9 & 0.2 \\
+\bottomrule
+\end{tabular}
+
+\smallskip
+\footnotesize State: LHCP/RHCP if AR $<\SI{3}{dB}$; LHCP- or RHCP-dominant if $\SI{3}{dB}\le$ AR $\le\SI{10}{dB}$; linear if AR $>\SI{10}{dB}$. For nearly linear harmonics (AR $>\SI{15}{dB}$) the AR is ill-conditioned, and $\Delta$AR is not a meaningful measure of agreement. Harmonics up to $|n|=6$ were computed; for $|n|=4$ they are at $-61$ to $-66$~dBc ($\delta\eps=0.05$) and $-22$ to $-24$~dBc ($\delta\eps=0.2$) (Supporting Information).
+\end{table}

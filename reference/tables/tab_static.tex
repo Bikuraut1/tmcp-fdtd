@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Static performance of the antenna ($\delta\eps=0$). Frequencies in GHz. Band edges are interpolated crossings of the \SI{3}{dB} AR and \SI{-10}{dB} $|S_{11}|$ levels; the AR of the in-house results is evaluated from a cubic-spline interpolation of the complex broadside field (checked against a \SI{2}{MHz} DFT grid on the coarse grid).}
+\label{tab:static}
+\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+Solver & AR$_{\min}$ (dB) & $f(\mathrm{AR}_{\min})$ & \SI{3}{dB} AR band & \SI{-10}{dB} $S_{11}$ band & $S_{11}$ minima (GHz/dB) \\
+\midrule
+In-house, $\Delta x=\SI{0.50}{mm}$ & 1.30 & 5.754 & 5.711--5.799 & 5.878--6.139$^{a}$ & 5.721/$-$9.6; 6.025/$-$17.3 \\
+In-house, $\Delta x=\SI{0.25}{mm}$ & 1.15 & 5.833 & 5.787--5.881 & 5.752--6.210 & 5.786/$-$10.6; 6.090/$-$18.1 \\
+HFSS & 1.09 & 5.818 & 5.771--5.865 & 5.712--6.179 & 5.770/$-$11.8; 6.050/$-$16.5 \\
+\bottomrule
+\end{tabular}
+
+\smallskip
+\footnotesize $^{a}$The lower resonance reaches only \SI{-9.6}{dB} on the coarse grid.
+\end{table}

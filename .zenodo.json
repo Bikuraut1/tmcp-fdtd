@@ -1,0 +1,14 @@
+{
+  "title": "tmcp-fdtd: FDTD code and data for sideband generation and polarization conversion in a CP patch antenna on a time-modulated substrate",
+  "upload_type": "software",
+  "description": "<p>Three-dimensional FDTD solver (Python/numba) with a displacement-field update for time-varying permittivity, CPML, near-to-far-field transformation and an exact harmonic-resolved power balance, together with all simulation data and scripts that reproduce every table and figure of the article <i>FDTD Analysis of Sideband Generation and Polarization Conversion in a Circularly Polarized Patch Antenna on a Time-Modulated Substrate</i> (Microwave and Optical Technology Letters, submitted) and its Supporting Information. Run <code>python reproduce.py all</code>.</p>",
+  "creators": [
+    {"name": "Raut, Biku", "affiliation": "Department of Electronic Science, Berhampur University, Odisha, India"},
+    {"name": "Naik, Deepak K.", "affiliation": "Department of Electronic Science, Berhampur University, Odisha, India"},
+    {"name": "Panda, Dhruba C.", "affiliation": "Department of Electronic Science, Berhampur University, Odisha, India"}
+  ],
+  "license": "MIT",
+  "keywords": ["FDTD", "time-modulated media", "time-varying permittivity", "circular polarization", "microstrip patch antenna", "sideband generation"],
+  "version": "1.0.0",
+  "language": "eng"
+}
